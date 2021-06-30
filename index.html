@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> 💘 Shakeeb's Love Calculator 💘</title>
+    <style>
+        body{
+            background-color: rgb(250, 57, 240);
+        }
+        h1,h3
+        {
+            text-align: center;
+        }
+        p{
+            text-align: center;
+            font-size: larger;
+        }
+        form{
+            text-align: center;
+        }
+        label{
+            font-size:xx-large;
+        }
+        input,button{
+            font-size: xx-large;
+        }
+        button{
+            position:absolute;
+            padding-bottom: 0px;
+        }
+       
+        
+    </style>
+</head>
+<body>
+    <h1>Shakeeb Calculates your love percentage:</h1>
+    <p>Welcome to this Absolute BS!!</p><br>
+    <h3>What you have to do is simple:</h3><br>
+    <p>Enter your name and your partners name if you have one! and hit calulate</p>
+    <br>
+    <hr noshade="0">
+    <br>
+   <form id ="demo" method="GET">
+       <label id="uname">Enter you name :</label>
+       <input type="text" name="uname" id="name1">
+       ❤
+       <label  id="pname">Enter your partner's name :</label>❤
+       <input type="text" name="pname" id="name2"><br>
+       <br>
+      <button onclick="calc()">Calculate</button><br>
+   </form>
+   <br><br>
+   <hr noshade="0">
+   <br>
+   <script>
+       function calc()
+       {
+            var n = Math.random()*100;
+            n=Math.floor(n)+1;
+            alert("You Love Score is : " + n + "%");
+       }
+   </script>
+
+</body>
+
+</html>
